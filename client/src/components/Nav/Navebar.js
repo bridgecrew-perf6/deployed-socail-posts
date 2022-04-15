@@ -38,7 +38,7 @@ const Navebar=()=>{
     <>
     <Navbar bg="dark" variant="dark">
     <Container>
-      <Navbar.Brand as={Link}  to='/'>socail-media</Navbar.Brand>
+      <Navbar.Brand as={Link}  to='/'>Citation</Navbar.Brand>
       <Navbar.Toggle />{user?.result?.name}
       <Navbar.Collapse className="justify-content-end">
       <NavDropdown title={<IoWalkOutline/>} id="basic-nav-dropdown">
